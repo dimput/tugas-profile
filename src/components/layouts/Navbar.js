@@ -1,16 +1,17 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import SignedLink from './SignedLink';
-import Logos from './logos.png';
 import Navdraw from './Navdraw';
+import UnsignedLink from './UnsignedLink';
 const Navbar = () => {
     return(
     <div>
-        <nav>
+        <nav style={{fontWeight:"bold"}} className="white">
           <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
         <div className="nav-wrapper container">
-          <a href="#!" className="brand-logo">Curio Box</a>
+          <Link to="/" className="brand-logo red-text accent-2" style={{fontFamily:"YayFriday"}}>Curio Box</Link>
           <SignedLink/>
+          <UnsignedLink/>
         </div>
         </nav>
         <Navdraw/>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/layouts/Navbar';
 import {BrowserRouter} from 'react-router-dom';
+import Header from './components/layouts/Header';
 
 class App extends Component {
   constructor(props) {
@@ -43,6 +44,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Navbar/>
+        <Header/>
       </BrowserRouter>
     );
   }

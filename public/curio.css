@@ -1,0 +1,6 @@
+@font-face{
+    font-family:'YayFriday';font-weight:bold;font-style:normal;src:url("./YayFriday-Bold-5565d5ad52b2b955f45dbeff3636e2e54fce648db9e39b851c39e3535dc87c20.otf")
+}
+* {
+    font-family: "Muli";
+}

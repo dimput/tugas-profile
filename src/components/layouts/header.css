@@ -1,0 +1,16 @@
+.Header {
+    height: 92vh;
+    background-image: url(./curioHeader.png);
+    background-size: 1000px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    .Header {
+        background-image: url(./curioHeaderM.png);
+        background-position-y: bottom;
+        background-size: 100vw;
+
+    }
+  }

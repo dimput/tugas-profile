@@ -5,10 +5,10 @@ const SignedLink = () => {
     return(
         <ul className="right hide-on-med-and-down">
             <li>
-                <NavLink to="/" className="hide-on-med-and-down">Name</NavLink>
+                <NavLink to="/" className="hide-on-med-and-down red-text accent-2">Name</NavLink>
             </li>
             <li>
-                <NavLink className="btn btn-floating light-blue darken-3" to="/">NN</NavLink>
+                <NavLink className="btn btn-floating red accent-2" to="/">NN</NavLink>
             </li>
         </ul>
     )
