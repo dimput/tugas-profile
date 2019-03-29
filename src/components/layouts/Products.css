@@ -1,0 +1,18 @@
+.kotak-products {
+    margin: 5px 5px;
+    border: 1px solid #ff80ab;
+    border-radius: 0 0 10px 10px;
+}
+
+h6.harga {
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.btn-products {
+    border-radius: 30px;
+}
+
+.judul-products{
+    font-family: YayFriday;
+}

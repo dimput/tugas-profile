@@ -1,0 +1,33 @@
+.IsiBox{
+    background-image: url('./logos.png');
+    background-repeat: no-repeat;
+    background-position-y:50%;
+    background-position-x: 20%;
+    background-size: 30vw;
+    padding-top: 3vh;
+    height: 81vh;
+}
+.paragraf-isi-box {
+    font-weight:bold;
+    font-size:20px;
+    padding:0px;
+    margin-top:0px;
+    margin-bottom:5px;
+}
+@media only screen and (max-width: 600px) {
+    .IsiBox {
+        background-size: 50vw;
+        padding-top: 40vh;
+        background-position-x: 55%;
+        background-position-y: 20%;
+        height: 121vh;
+    }
+    .title {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .penghilang-padding {
+        padding: 0px;
+        width: 97%;
+    }
+}

@@ -1,0 +1,16 @@
+.Howtouse{
+    height: 100vh;
+    background-color: #fefefe;
+    padding-top: 10vh
+}
+
+.howtouse-title {
+    font-family: YayFriday;
+}
+
+@media only screen and (max-width: 600px) {
+    .Howtouse {
+        padding-top: 3vh;
+        height: 130vh;
+    }
+}

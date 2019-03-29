@@ -3,6 +3,10 @@ import './App.css';
 import Navbar from './components/layouts/Navbar';
 import {BrowserRouter} from 'react-router-dom';
 import Header from './components/layouts/Header';
+import Howtouse from './components/layouts/Howtouse';
+import IsiBox from './components/layouts/IsiBox';
+import Products from './components/layouts/Products';
+import Footer from './components/layouts/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -45,6 +49,10 @@ class App extends Component {
       <BrowserRouter>
         <Navbar/>
         <Header/>
+        <Howtouse/>
+        <IsiBox/>
+        <Products/>
+        <Footer/>
       </BrowserRouter>
     );
   }

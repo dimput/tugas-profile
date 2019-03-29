@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import BG from './bgsidenav.png';
+import logo from './depan.png';
 
 const Navdraw = () => {
     return(
@@ -9,9 +10,9 @@ const Navdraw = () => {
             <div className="background">
                 <img src={BG} alt="background-sidebar" width="100%"/>
             </div>
-                <NavLink to="#user"><img className="circle" src="images/yuna.jpg" alt="icon-user"/></NavLink>
-                <NavLink to="#name"><span className="black-text name">John Doe</span></NavLink>
-                <NavLink to="#email"><span className="black-text email">jdandturk@gmail.com</span></NavLink>
+                <NavLink to="#user"><img className="circle" src={logo} alt="icon-user"/></NavLink>
+                <NavLink to="#name"><span className="black-text name">City</span></NavLink>
+                <NavLink to="#email"><span className="black-text email">city@curio.id</span></NavLink>
             </div>
         </li>
         <li><NavLink to="#!"><i className="material-icons">cloud</i>First Link With Icon</NavLink></li>
