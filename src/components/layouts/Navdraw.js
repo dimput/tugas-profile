@@ -11,8 +11,7 @@ const Navdraw = () => {
                 <img src={BG} alt="background-sidebar" width="100%"/>
             </div>
                 <NavLink to="#user"><img className="circle" src={logo} alt="icon-user"/></NavLink>
-                <NavLink to="#name"><span className="black-text name">Nama</span></NavLink>
-                <NavLink to="#email"><span className="black-text email">Nama@curio.id</span></NavLink>
+                <NavLink to="#name"><span className="btn red accent-2">Login</span></NavLink>
             </div>
         </li>
         <li><NavLink to="#!"><i className="material-icons">cloud</i>First Link With Icon</NavLink></li>

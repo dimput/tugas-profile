@@ -9,8 +9,13 @@
     "firebase": "^5.9.2",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
+    "react-redux": "^6.0.1",
+    "react-redux-firebase": "^2.2.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-toastify": "^5.0.0-rc.3",
+    "redux": "^4.0.1",
+    "redux-firebase": "^0.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
