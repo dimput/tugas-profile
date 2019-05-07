@@ -8,9 +8,9 @@ function Dashboard() {
   return (
     <div>
         <Header/>
-        <Howtouse/>
+        {/* <Howtouse/>
         <IsiBox/>
-        <Products/>
+        <Products/> */}
     </div>
   )
 }

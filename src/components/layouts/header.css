@@ -1,10 +1,28 @@
 .Header {
-    height: 92vh;
-    background-image: url(./curioHeader.png);
-    background-size: 1000px;
-    background-position-x: right;
+    height: 90.2vh;
+    background-image: linear-gradient(45deg, #642B73, #C6426E);
+    background-position-x: center;
     background-repeat: no-repeat;
-    padding: 18vh 0;
+    padding: 40vh 0;
+}
+
+.kotaksurat {
+    width: 175px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: -200px;
+    left: 378px;
+    z-index: 2;
+    border: 3px solid #472778;
+    border-radius: 15px;
+    transition: top 0.3s;
+}
+
+.satu {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -200px;
 }
 
 .header-text {

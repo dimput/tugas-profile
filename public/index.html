@@ -37,7 +37,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Curio Box</title>
+    <title>Dimas Putra Y</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -60,6 +60,40 @@
         });
      </script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   
+     <script>
+      $(function() {
+        $('.unsubscribe').hover(function() {
+          $('.kotaksurat').css('top', '-180px');
+          $('.mata').css('margin-top', '-70px');
+          $('.isi-mulut').css('background-image','url("cemberut-2.png")');
+          $('.isi-mulut').css('margin-top','180px');
+        }, function() {
+          // on mouseout, reset the background colour
+          $('.kotaksurat').css('top', '-200px');
+          $('.mata').css('margin-top', '-90px');
+           $('.isi-mulut').css('background-image','url("cemberut-1.png")');
+           $('.isi-mulut').css('margin-top','200px');
+        });
+      });
+      $(".cancel").click(function() {
+          $('.judul-awal').css('display','none');
+          $('.judul-cancel').css('display','block');
+          $('.button-awal').css('display','none');
+          $('.goback').css('display','block');
+      });
+      $(".goback").click(function() {
+          $('.judul-awal').css('display','block');
+          $('.judul-cancel').css('display','none');
+          $('.judul-unsubs').css('display','none');
+          $('.button-awal').css('display','block');
+          $('.goback').css('display','none');
+      });
+      $(".unsubscribe").click(function() {
+          $('.judul-awal').css('display','none');
+          $('.judul-unsubs').css('display','block');
+          $('.button-awal').css('display','none');
+          $('.goback').css('display','block');
+      });
+  </script>
   </body>
 </html>

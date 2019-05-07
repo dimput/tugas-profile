@@ -1,6 +1,8 @@
 import React from 'react'
 import './header.css';
 import firebase from './../../config/config.js';
+import satu from './satu.png';
+import dua from './dua.png';
 
 class Header extends React.Component {
     constructor(props){
@@ -57,47 +59,27 @@ class Header extends React.Component {
     }
 render(){
   return (
-    <div className="Header pink accent-1">
+    <div className="Header">
         <div className="container">
             <div className="row">
-                <div className="col s12 m6">
+                <div className="col s12 m12">
                     <div className="card ku z-depth-0">
-                        <div>
-                            <div className="card-title white-text">
-                                <h1 style={{fontFamily:"YayFriday"}}>Gift Box Indonesia</h1>
+                        <div className="center-align">
+                            <div>
+                                <div className="kotaksurat"></div>
+                                <img src={dua} width="200" className="satu" style={{bottom:"220px"}}/>
+                                <img src={satu} width="200" className="satu" style={{zIndex:"3"}}/>
+                            </div>
+                            <div className="card-title white-text center-align">
+                                <h1 style={{fontFamily:"YayFriday"}}>Dimas Putra Yudhatama</h1>
                             </div>
                             <div className="white-text">
-                                <p className="header-text">
-                                Enjoy a Gift box containing 8-9 items of suprising!
+                                <p className="header-text center-align">
+                                    Mahasiswa biasa jurusan Ilmu komputer dan Sistem Informasi UGM
                                 </p>
                             </div>
-                            <div className="row center-align white-text">
-                                <div className="col s3 m3">
-                                <div className="col s12 m12">Hari</div>
-                                <div className="col s12 m12" style={{fontSize:"35px"}}>    
-                                        <b>{this.state.Hari}</b>
-                                </div>
-                                </div>
-                                <div className="col s3 m3">
-                                <div className="col s12 m12">Jam</div>
-                                <div className="col s12 m12" style={{fontSize:"35px"}}>    
-                                        <b>{this.state.Jam}</b>
-                                </div>
-                                </div>
-                                <div className="col s3 m3">
-                                <div className="col s12 m12">Menit</div>
-                                <div className="col s12 m12" style={{fontSize:"35px"}}>    
-                                        <b>{this.state.Menit}</b>
-                                </div>
-                                </div>
-                                <div className="col s3 m3">
-                                <div className="col s12 m12">Detik</div>
-                                <div className="col s12 m12" style={{fontSize:"35px"}}>    
-                                        <b>{this.state.Detik}</b>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="header-btn btn red accent-2" style={{fontWeight:"bold"}}>OPENING SOON</div>
+                            <div className="header-btn btn red accent-2 love" style={{fontWeight:"bold",marginRight:"20px"}}><i className="material-icons">favorite</i> <div style={{float:"left", paddingRight:"5px"}}>love</div></div>
+                            <div className="header-btn btn red accent-2 unsubscribe" style={{fontWeight:"bold"}}><i className="material-icons">sentiment_very_dissatisfied</i> <div style={{float:"left", paddingRight:"5px"}}>hate</div></div>
                         </div>
                     </div>
                 </div>
